@@ -39,6 +39,7 @@ const randomNumber = (min, max) => {
 const dicesAmount = () => {
   diceAmount = diceAmountInput.value;
   diceAmountDisplay.textContent = diceAmount;
+  probabilityDisplay.textContent = diceAmount
 };
 
 const rollDice = () => {
